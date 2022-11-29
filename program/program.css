@@ -1,0 +1,292 @@
+html, body {
+    margin:0px;
+    background-color: black;
+    color: white;
+    font-family: Helvetica, Sans-Serif;
+    overflow-wrap: break-word;
+}
+
+
+/*natel*/
+@media (max-width: 768px) {
+    .ordi {
+        display: none;
+    }
+
+    .header{
+        z-index: 999;
+        position: fixed;
+    }
+
+    .width_calibration{
+        width: 100%;
+        height: 100%; 
+    }
+
+    p { 
+        font-size: 12pt;
+        margin-top: 8pt;
+        margin-bottom: 16pt;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        font-weight: lighter;
+    }
+
+    h1 {
+        font-size: 26pt;
+        margin-top: 43pt;
+        margin-bottom: 8pt;
+        margin-left: 9vw;
+        font-weight: 300;
+        width: 90vw;
+    }
+
+    a { 
+        font-size: 20pt;
+    }
+
+    h2 { 
+        font-size: 42pt;
+        margin-top: 15pt;
+        margin-bottom: 32pt;
+        margin-right: 10vw;
+        margin-left: 10vw;
+        font-weight: normal;
+    }
+
+    .superbig_wrapper_natel {
+        width: 100vw;
+        height: 100vh;
+        overflow: scroll;
+        position: relative;
+
+        scroll-snap-type: y mandatory;
+    }
+
+    .full_screen_container{
+        width: 100vw;
+        height: 100vh;
+        scroll-snap-align: start;
+        scroll-snap-stop: normal;
+        overflow-y: hidden;
+    }
+
+    .half_up_text{
+        position: absolute;
+        height: 50vh;
+        width: 100vw;
+        vertical-align: top;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .half_bottom_image{
+        position: absolute;
+        height:50vh;
+        width:100vw;
+        object-fit: cover;
+    }
+
+    #home_buzz{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: 0px;
+
+        background-size: cover;
+        background-image: url("../images/natel/Program/Buzz/Projets_Buzz_Rendu_Dessus.png");
+    }
+
+    #home_F100{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: 0px;
+
+        background-size: cover;
+        background-image: url("../images/natel/Program/F100/F-100_background.jpg");
+    }
+
+    #home_colibri{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: 0px;
+
+        background-size: cover;
+        background-image: url("../images/natel/Program/Colibri/Colibri.png");
+    }
+
+    
+}
+
+/*ordi*/
+@media (min-width: 767px) {
+    .natel {
+        display: none;
+    }
+
+    .header{
+        z-index: 999;
+        position: fixed;
+    }
+    
+    /* SPECIFIC */
+    p { 
+        font-size: 16pt;
+        margin-top: 8pt;
+        margin-bottom: 16pt;
+        font-weight:lighter;
+    }
+    
+    h1 { 
+        font-size: 45pt;
+        margin-top: 15pt;
+        margin-bottom: 10pt;
+        font-weight:normal;
+    }
+    
+    
+    img{
+        object-fit: cover;
+    }
+    
+    .height_calibration{
+        height: 100%;
+        max-width: 100%; 
+    }
+    
+    .width_calibration{
+        width: 100%;
+        height: 100%; 
+    }
+    
+    .half_screen_smaller_box{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .half_screen_content {
+        height:100%;
+        width:50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .half_screen_text{
+        padding-top: 90px;
+        margin-bottom:90px;
+        margin-left: 7vw;
+        margin-right: 7vw;
+    }
+    
+    
+    
+    .superbig_wrapper {
+        position:absolute;
+        display:block;
+        top:0;
+        left:0;
+        width:100vh;
+        max-height:100vw;
+        margin:0;
+        overflow-x:hidden;
+        transform:rotate(-90deg) translateY(-100vh);
+        transform-origin:right top;
+    
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory;
+        scroll-behavior: smooth;
+    
+        -ms-overflow-style: none;  /* IE and Edge and Safari*/
+        scrollbar-width: none;  /* Firefox */
+    }
+    
+    .superbig_wrapper::-webkit-scrollbar {
+        display: none; /*Chrome*/
+      }
+    
+    
+    .half_screen_box{
+        height: 100vw;
+        width: 100vh;
+        display:block;
+        transform:rotate(90deg) translateX(100vh);
+        transform-origin: right top;
+    
+        scroll-snap-align: start;
+    }
+
+    #buzz_first_page{
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        width: 100vh;
+        height: 100vw;
+    }
+    /*
+    #buzz_first_page{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: 0px;
+    
+    
+    
+        background-size: cover;
+        background-image: url("../images/ordi/Program/Buzz/Projets_Buzz_vol_screenshot.png");
+    }
+    */
+    #F100_first_page{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: 0px;
+    
+    
+    
+        background-size: cover;
+        background-image: url("../images/ordi/Program/F100/F-100.jpg");
+    }
+    
+    #Colibri_first_page{
+        background-repeat: no-repeat;
+        background-position: center;
+    
+    
+    
+        background-size: contain;
+        background-position-x: right;
+        background-image: url("../images/ordi/Program/Colibri/Colibri.png");
+    }
+    
+    #arrow{
+        position: sticky;
+    
+        height: 100%;
+        width: 100%;
+    }
+    
+    #round{
+        position: sticky;
+    
+        height: 100%;
+        width: 100%;
+    }
+    
+    /* aspect au démarrage de la page*/
+    #round1{
+        opacity: 1;
+    }
+    #round2{
+        opacity: 0;
+    }
+    #round3{
+        opacity: 0;
+    }
+    #round4{
+        opacity: 0;
+    }
+    #round5{
+        opacity: 0;
+    }
+}

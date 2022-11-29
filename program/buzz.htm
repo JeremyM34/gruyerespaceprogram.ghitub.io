@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+<meta charset="UTF-8">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140810582-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-140810582-2');
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruyere Space Program</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="program.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="program.js"></script>
+</head>
+
+<body>
+    <!-- HEADER (Arrow) -->
+    <div class="natel">
+        <div class="header" style="top: 20px; left: 20px; height: 30px; width:30px;">
+            <a href="../index.htm#projets">
+                <div id = "arrow">
+                    <div style="position:relative; z-index: 1000;">
+                        <img class="width_calibration" src="../images/natel/Program/arrow.png">
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="ordi">
+        <div class="header" style="top: 40px; left: 40px; height: 35px; width:40px;">
+            <a href="../index.htm#projets">
+                <div id = "arrow">
+                    <div style="position:relative; z-index: 1000;">
+                        <img class="width_calibration" src="../images/ordi/Program/arrow.png">
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="header" style="top: 40px; right: 40px; height: 40px; width:30vw;">
+            <div id = "round">
+                <div style="position:absolute; z-index: 1000; height:100%; width:100%; display: flex; justify-content: space-between; align-items: stretch;">
+                    <a href="#B1" id = "round1"> <img class="height_calibration"  src="../images/ordi/Program/Round.png"> </a>
+                    <a href="#B2" id = "round2"> <img class="height_calibration"  src="../images/ordi/Program/Round.png"> </a>
+                    <a href="#B3" id = "round3"> <img class="height_calibration"  src="../images/ordi/Program/Round.png"> </a>
+                    <a href="#B4" id = "round4"> <img class="height_calibration"  src="../images/ordi/Program/Round.png"> </a>
+                </div>
+                <div style="position:absolute; z-index: 1000; height:100%; width:100%; display: flex; justify-content: space-between; align-items: stretch;">
+                    <a href="#B1"> <img class="height_calibration"  src="../images/ordi/Program/Circle.png"> </a>
+                    <a href="#B2"> <img class="height_calibration"  src="../images/ordi/Program/Circle.png"> </a>
+                    <a href="#B3"> <img class="height_calibration"  src="../images/ordi/Program/Circle.png"> </a>
+                    <a href="#B4"> <img class="height_calibration"  src="../images/ordi/Program/Circle.png"> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SLIDES (main body) -->
+    <div class="natel">
+        <div class = "superbig_wrapper_natel"> 
+            <div class = "full_screen_container" id="home_buzz">
+                <div class="half_up_text">
+                    <h1>
+                        Buzz
+                    </h1>
+                    <p>
+                        Buzz is our test platform for the GNC of Colibri. It is an electric autonomous flying vehicle, which allows to perform a lot of back to back tests in a short time.
+                    </p>
+                </div>
+            </div>
+            <div class = "full_screen_container">
+                <div class="half_up_text">
+                    <h1>
+                        Design
+                    </h1>
+                    <p>
+                        This vehicle has been designed as a test platform. FDM 3D printing was extensively used for its manufacturing, which allows for a good repairability and modularity. Multiple configurations as well as various sensors can thus be analyzed to improve the GNC of Colibri. 
+                    </p>
+                </div>
+                <img class="half_bottom_image" style="top:150vh;" src="../images/natel/Program/Buzz/Projets_Buzz_Fumee1.jpg"></img>
+            </div>
+            <div class = "full_screen_container">
+                <div class="half_up_text">
+                    <h1>
+                        Control algorithms
+                    </h1>
+                    <p>
+                        To improve our control algorithms, we are developing a simulation in parallel to the PCB software. 
+                        </br>
+                        The simulation and code architecture have been designed in a manner that allows an easy transfer to the Colibri project.
+                    </p>
+                </div>
+                <img class="half_bottom_image" style="top:250vh;" src="../images/natel/Program/Buzz/Projets_Buzz_Code_Portrait.jpg"></img>
+            </div>
+            <div class = "full_screen_container">
+                <div class="half_up_text">
+                    <h1>
+                        Electronics
+                    </h1>
+                    <p>
+                        Following the development of multiple printed circuit boards for our TVC rockets, this PCB allows Buzz to be controlled in an autonomous way while sharing its flight data via WIFI. This PCB embeds an IMU, a barometer, a GPS, a LIDAR and an optical flow module.
+                    </p>
+                </div>
+                <img class="half_bottom_image" style="top:350vh;"src="../images/natel/Program/Buzz/Projets_Buzz_Electronique1.jpg"></img>
+            </div>
+        </div>
+    </div>
+
+    <div class="ordi">
+        <div class = "superbig_wrapper"> 
+
+            <!--div class = "half_screen_box" id="B1">    
+                <div id="home_buzz" style="overflow: hidden;">
+                    <video autoplay muted loop height="100%" poster="../images/ordi/Program/Buzz/Projets_Buzz_Electronique3_portrait.jpeg">
+                        <source src="../images/ordi/Program/Buzz/Buzz.mp4"
+                        type="video/mp4">
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                </div>
+            </div-->
+        
+            <div class = "half_screen_box" style="position: absolute;">
+                <div class = "half_screen_smaller_box" style="overflow:hidden;" id="B1">
+                    <video autoplay muted loop style="min-height:100vh; width:100vw" poster="../images/ordi/Program/Buzz/Projets_Buzz_vol_screenshot.jpg">
+                        <source src="../images/ordi/Program/Buzz/Buzz.mp4"
+                        type="video/mp4">
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                </div>
+            </div>
+
+            <div class = "half_screen_box">
+                <div class = "half_screen_smaller_box" style="overflow:hidden;" id="B1">
+                    <div class = "half_screen_content">
+                        <div class = "half_screen_text">
+                            <h1>
+                                Buzz
+                            </h1>
+                            <p>
+                                Buzz is our test platform for the GNC of Colibri. It is an electric autonomous flying vehicle, which allows to perform a lot of back to back tests in a short time.
+                            </p>
+                        </div>
+                    </div>
+                    <div class = "half_screen_content">
+                    </div>
+                </div>
+            </div>
+            
+            <div class = "half_screen_box">
+                <div class = "half_screen_smaller_box" id="B2">
+                    <div class = "half_screen_content">
+                        <div class = "half_screen_text">
+                            <h1>
+                                Design
+                            </h1>
+                            <p>
+                                This vehicle has been designed as a test platform. FDM 3D printing was extensively used for its manufacturing, which allows for a good repairability and modularity. Multiple configurations as well as various sensors can thus be analyzed to improve the GNC of Colibri. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class = "half_screen_content">
+                        <img class="width_calibration" src="../images/ordi/Program/Buzz/Projets_Buzz_Fumee1.jpg">
+                    </div>
+                </div>
+            </div>
+        
+            <div class = "half_screen_box">
+                <div class = "half_screen_smaller_box" id="B3">
+                    <div class = "half_screen_content">
+                        <div class = "half_screen_text">
+                            <h1>
+                                Control algorithms
+                            </h1>
+                            <p>
+                                To improve our control algorithms, we are developing a simulation in parallel to the PCB software. 
+                                </br>
+                                The simulation and code architecture have been designed in a manner that allows an easy transfer to the Colibri project.
+                            </p>
+                        </div>
+                    </div>
+                    <div class = "half_screen_content">
+                        <img class="width_calibration" src="../images/ordi/Program/Buzz/Projets_Buzz_Code_Portrait.jpg">
+                    </div>
+                </div>
+            </div>
+        
+        
+            <div class = "half_screen_box" id="B4">
+                <div class = "half_screen_smaller_box">
+                    <div class = "half_screen_content">
+                        <div class = "half_screen_text">
+                            <h1>
+                                Electronics
+                            </h1>
+                            <p>
+                                Following the development of multiple printed circuit boards for our TVC rockets, this PCB allows Buzz to be controlled in an autonomous way while sharing its flight data via WIFI. This PCB embeds an IMU, a barometer, a GPS, a LIDAR and an optical flow module.
+                            </p>
+                        </div>
+                    </div>
+                    <div class = "half_screen_content" style="overflow: hidden;">
+                        <img class="width_calibration" src="../images/ordi/Program/Buzz/Projets_Buzz_Electronique3_portrait.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

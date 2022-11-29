@@ -1,0 +1,38 @@
+$(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+            var pageposition = $("#superbig_wrapper_ordi")[0].scrollTop;
+            $(".superbig_wrapper").css("overflow-y", "unset");
+            $(window).scrollTop(pageposition);
+            $(".superbig_wrapper").css("scroll-snap-align", "none");
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 650, function(){
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+
+            setTimeout(
+                function() 
+                {
+                    var pageposition = $(window).scrollTop();
+                    $(".superbig_wrapper").css("overflow-y", "scroll");
+                    $(".superbig_wrapper").scrollTop(pageposition);
+                    $(".superbig_wrapper").css("scroll-snap-align", "y mandatory");
+                }, 700
+            );
+        } // End if
+    });
+});

@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="fr">
+<meta charset="UTF-8">
+
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140810582-2"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-140810582-2');
+        </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Gruyère Space Program est une association qui développe la première fusée hopper construite par des étudiants!">
+        <title>Gruyere Space Program</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="../index.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" defer></script>
+        <script src="../index.js" defer></script> 
+        <link rel="preload" href="../images/ordi/Home/Home.jpg" as="image"> 
+        <link rel="preload" href="../images/natel/Home/Home.jpg" as="image"> 
+        <link rel="preload" href="../images/natel/Home/logo_gsp.png" as="image"> 
+        <link rel="preload" href="../images/ordi/Home/logo_gsp.png" as="image"> 
+    </head>
+    <body>
+        <!-- HEADER (menu) -->
+        <div class="natel">
+            <div class="header" style="top: 5vw; left: 5vw; width: 90vw; height: 3vh;">
+                <div style="position:relative; z-index: 1000; height:100%; display: flex; justify-content: space-between; align-items: stretch;">
+                    <a href="#home_natel" style="width:30vw;"><img class="height_calibration"  src="../images/natel/Home/logo_gsp.png"></a>
+                    <p  style="width:50vw;"></p>
+                    <a href="../index.htm" style="width:10vw;">EN</a>
+                </div>
+            </div>
+        </div>
+        <div class="ordi">
+            <div class="header" style="top: 30px; left: 2vw; width: 96vw; height: 35px;">
+                <div style="position:relative; z-index: 1000; height:100%; display: flex; justify-content: space-between; align-items: stretch;">
+                    <a href="#home_ordi" style="width:10vw; text-align:left;"><img class="height_calibration"  src="../images/ordi/Home/logo_gsp.png"></a>
+                    <p style="width:20vw;"> </p>
+                    <a href="#objectif" style="margin-right:2vw; margin-left: 2vw; width:auto; text-align: right;"><p> Objectif</p></a>
+                    <a href="#projets" style="margin-right:2vw; margin-left: 2vw; width:auto; text-align: right;"><p>Projets</p></a>
+                    <a href="#equipe" style="margin-right:2vw; margin-left: 2vw; width:auto; text-align: right;"><p>Equipe</p></a> 
+                    <a href="#partenaires" style="margin-right:2vw; margin-left: 2vw; width:auto; text-align: right;"><p>Partenaires</p></a>
+                    <a href="#press" style="margin-right: 1vw; margin-left: 1vw; width:auto; text-align: right;"><p>Presse</p></a>
+                    <a href="#contact_ordi" style="margin-right:2vw; margin-left: 2vw; width:auto; text-align: right;"><p>Contact</p></a>
+                    <p></p>
+                    <a href="../index.htm" style="width:10vw; text-align: right;"><p>EN</p></a>
+                </div>
+            </div>
+        </div>
+        <!-- SLIDES (main body) -->
+        <div class="natel">
+            <div class = "superbig_wrapper"> 
+                <!-- home -->
+                <div class = "screen_box" id="home_natel">
+                    <div class = "screen_smaller_box" style="height:93vh;">
+                        <div>
+                            <h2>
+                                Première fusée hopper au monde construite par des étudiants
+                            </h2>
+                        </div>
+                    </div>
+                    <div style="height: 3vh; text-align: center; padding:2vh;">
+                    </div>
+                </div>
+
+                <!-- objectif -->
+                <div class = "screen_box" id="objectif_natel">
+                    <div style="padding-top: 5vh; padding-bottom:2vh;">
+                        <h1>
+                            Objectif
+                        </h1>
+                        <p>
+                            Pour 2023, nous visons que notre fusée hopper, Colibri, exécute son premier vol VTVL (vertical takeoff vertical landing). Ce vol démontrera notre capacité à implémenter cette technologie de pointe du secteur aérospatial. .
+                            </br>
+                            </br>
+                            Buzz et F-100, deux sous-projets débutés en 2020, nous ont permis de gagner en expérience dans les domaines du contrôle de vol et de la propulsion respectivement avant de développer Colibri 
+                        </p>
+                    </div>
+                    <div class = "screen_content" style="margin-bottom:4vh; margin-top: 4vh;">
+                        <img style="object-fit:contain; margin:4vw; width:100vw; max-height: 65vh;" src="../images/natel/Home/Objectif.png">
+                    </div>
+                </div>
+
+                <!-- projets -->
+                <div class = "screen_box">
+                    <div style="padding-top: 5vh; padding-bottom:2vh;">
+                        <h1>
+                            Projets
+                        </h1>
+                        <p>
+                            Cliquez sur un des 3 badges pour découvrir le projet correspondant.
+                        </p>
+                    </div>
+                    <div class="screen_content">
+                        <table style="width:90vw; margin:5vw; margin-top: 2vh;"> <!--Height of the table is defined by column's heigth -> CSS:10vh/column-->
+                            <tr>
+                                <td colspan="2"> <a href="./program/colibri.htm"><img style="margin:5%; width:90%;" src="../images/natel/Home/Projet_Colibri.png"></img> </a></td>
+                            </tr>
+
+                            <tr style="height:3vh;">
+
+                            </tr>
+
+                            <tr>
+                                <td> <a href="./program/F-100.htm"><img style="margin:5%; width:90%;" src="../images/natel/Home/Projet_F-100.png"></img></a> </td>
+                                <td> <a href="./program/buzz.htm"><img style="margin:5%; width:90%;" src="../images/natel/Home/Projet_Buzz.png"></img></a> </td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </div>
+
+                <!-- timeline -->
+                <div class = "screen_box" style="margin-top: 5vh;">
+                    <h1>
+                        Timeline
+                    </h1>
+                    <p>
+                        L'aventure a déjà commencée.
+                    </p>
+                    <div style="text-align: center; margin-top: 1vh;">
+                        <img style="width:90vw; max-height: 90vh;" src="../images/natel/Home/Timeline.png">
+                    </div>
+                </div>
+
+                <!-- equipe -->
+                <div class = "screen_box" style="padding-top: 5vh; padding-bottom:2vh;">
+                    <div>
+                        <h1>
+                            Equipe
+                        </h1>
+                        <p>
+                            Tous issus du même collège et passionnés d’aérospatiale, c’est naturellement que nous avons fondé cette association. 
+                        </br>
+                            Dotés d’une grande compatibilité et d’une excellente communication, nous avons su, année après année, s’unir pour atteindre les objectifs toujours plus élevés que nous nous fixons.
+                        </p>
+                    </div>
+                    <div class="screen_content">
+                        <table style="width:100%;"> <!--Height of the table is defined by column's heigth -> CSS:10vh/column-->
+                            <tr>
+                                <td style="height:20vh;"> <a href="https://ch.linkedin.com/in/julie-bohning"> <img style="height:96%; margin:2%;" src="../images/natel/Team/Equipe_Julie.png"></img> </a> </td>
+                                <td style="height:20vh;"> <a href="https://ch.linkedin.com/in/jeremy-marciacq"> <img style="height:96%; margin:2%;" src="../images/natel/Team/Equipe_Jeremy.png"></img> </a> </td>
+                            </tr>
+                            <tr>
+                                <td style="height:10vh; vertical-align: top;"> Julie Böhning </br> Co-fondatrice, Présidente, </br> GNC et Marketing. </td>
+                                <td style="height:10vh; vertical-align: top;"> Jérémy Marciacq </br> Co-fondateur, </br> Ingénieur Système et GNC. </td>
+                            </tr>
+                            <tr>
+                                <td style="height:20vh;"><a href="https://ch.linkedin.com/in/simon-both"> <img style="height:96%; margin:2%;" src="../images/natel/Team/Equipe_Simon.png"></img> </a></td>
+                                <td style="height:20vh;"><a href="https://ch.linkedin.com/in/pierre-morin-725059151"> <img style="height:96%; margin:2%;" src="../images/natel/Team/Equipe_Pierre.png"></img> </a></td>
+                            </tr>
+                            <tr>
+                                <td style="height:10vh; vertical-align: top;"> Simon Both </br> Co-fondateur, Trésorier, </br> Propulsion et Structure. </td>
+                                <td style="height:10vh; vertical-align: top;"> Pierre Morin </br> Membre, Secrétaire, </br> Propulsion. </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- histoire -->
+                <div class = "screen_box" style="padding-top: 5vh; padding-bottom:2vh;">
+                    <div>
+                        <h1>
+                            Histoire
+                        </h1>
+                        <p>
+                            Gruyère Space Program a été créé en novembre 2018, peu après notre entrée à l’EPFL.  
+                        </br>
+                            Dès le début, notre équipe a cherché à gagner de l’expérience en construisant des modèles réduits de fusées. Débutant avec de petits modèles imprimés en 3D, l’équipe s’est très vite dirigée vers des fusées TVC (Thrust vector control) afin d’ajouter la dimension du contrôle actif de la fusée.
+                        </p>
+                    </div>
+                    <div class="screen_content" style="padding-top:2vh;">
+                        <img style="object-fit:cover; width: 100vw; max-height: 50vh;" src="../images/natel/Home/Histoire_C2.jpg">
+                    </div>
+                </div>
+                <!-- vision -->
+                <div class = "screen_box" style="padding-top: 5vh; padding-bottom:2vh;">
+                    <div>
+                        <h1>
+                            Vision
+                        </h1>
+                        <p>
+                            Alors que le spatial prend une place de plus en plus importante, maîtriser la technologie d'atterrissage est d’une importance primordiale. Que ce soit pour réutiliser des lanceurs ou atterrir sur d’autres planètes, les vols VTVL sont très demandés et nous espérons pouvoir amener notre pierre à l’édifice. 
+                        </p>
+                    </div>
+                    <div class="screen_content" style="padding-top:2vh;">
+                        <img style="object-fit:cover; width: 100vw; max-height: 50vh;" src="../images/natel/Home/Vision.jpg">
+                    </div>
+                </div>
+
+                <!-- partenaires -->
+                <div class = "screen_box" style="padding-top: 5vh; padding-bottom:2vh;">
+                    <div>
+                        <h1>
+                            Partenaires
+                        </h1>
+                        <p>
+                            Merci à nos partenaires de croire en nous et de nous soutenir dans nos défis.
+                            C’est grâce à vous que cette première mondiale pourra voir le jour et que notre équipe peut continuer à viser plus haut!
+                            </br>
+                            Intéressé à devenir sponsor? N'hésitez pas à nous demander votre dossier de partenariat.
+                        </p>
+                    </div>
+                    <div class="screen_content" style="margin-top: 2vh;">
+                        <table style="width:85vw;"> <!--Height of the table is defined by column's heigth -> CSS:10vh/column-->
+                            <tr>
+                                <td style="height:5vh; vertical-align: bottom; font-size: 12pt;" colspan="6">- Partenaire Platine - </td>
+                            </tr>
+                            <tr>
+                                <td style="height:14vh;" colspan="6">  <a href="https://almatech.ch/" target="_blank"> <img style="width:96%; margin:2%;" src="../images/natel/Partners/Partenaire_Platine_Almatech.png"></img></a> </td>
+                            </tr>
+                            <tr>
+                                <td style="height:5vh; vertical-align: bottom; font-size: 12pt;" colspan="6">- Partenaires Or - </td>
+                            </tr>
+                            <tr>
+                                <td style="height:12vh;" colspan="6">  <a href="https://www.cransmontana.ch/fr/services-accm/economie/startup-friendly/" target="_blank"> <img style="width:57%; margin:1.5%;" src="../images/natel/Partners/Partenaires_Or_ACCM.png"></img></a> </td>
+                            </tr>
+                            <tr>
+                                <td style="height:12vh;" colspan="6">  <a href="https://www.vectornav.com" target="_blank"><img style="width:75%; margin:1.5%;" src="../images/natel/Partners/Partenaires_Or_VectorNav.png"></img></a> </td>
+                            </tr>
+                            <tr>
+                                <td style="height:12vh;" colspan="6">  <a href="https://www.javadgnss.com" target="_blank"><img style="width:60%; margin:2.5%;" src="../images/natel/Partners/Partenaires_Or_JAVAD.png"></img></a> </td>
+                            </tr>
+                            <tr>
+                                <td style="height:12vh;" colspan="6">  <a href="https://meili-technology.com" target="_blank"><img style="width:65%; margin:2.5%;" src="../images/natel/Partners/Partenaires_Or_Meili.png"></img></a> </td>
+                            </tr>
+                            <tr>
+                                <td style="height:12vh;" colspan="6">  <a href="https://alpin-mecanique.ch" target="_blank"><img style="width:60%; margin:2.5%;" src="../images/natel/Partners/Partenaires_Or_Alpin.png"></img></a> </td>
+                            </tr>
+                            <tr>
+                                <td style="height:12vh;" colspan="6">  <a href="https://swissto12.com" target="_blank"><img style="width:65%; margin:2.5%;" src="../images/natel/Partners/Partenaires_Or_Swissto12.png"></img></a> </td>
+                            </tr>
+                            <tr>
+                                <td style="height:5vh; vertical-align: bottom; font-size: 12pt;" colspan="6">- Partenaires Argent - </td>
+                            </tr>
+                            <tr>
+                                <td style="height:12vh;" colspan="3"> <a href="https://www.gruyere-energie.ch/" target="_blank"> <img style="width:90%; margin:3%;" src="../images/natel/Partners/Partenaires_Argent_GESA.png"></img></a></td>
+                                <td style="height:12vh;" colspan="3"> <a href="https://www.pangas.ch/fr/index.html" target="_blank"> <img style="width:100%; margin:0%;" src="../images/natel/Partners/Partenaires_Argent_Pangas.png"></img></a></td>
+                            </tr>
+                            <tr>
+                                <td style="height:12vh;" colspan="3"> <a href="https://planete-mars-suisse.space/fr/" target="_blank"> <img style="width:70%; margin:3%;" src="../images/natel/Partners/Partenaires_Argent_MS.png"></img></a></td>
+                                <td style="height:12vh;" colspan="3"> <a href="https://www.conrad.ch" target="_blank"> <img style="width:70%; margin:3%;" src="../images/natel/Partners/Partenaires_Argent_Conrad.png"></img></a></td>
+                            </tr>
+                            <tr>
+                                <td style="height:12vh;" colspan="3"> <a href="https://thecountdowncompany.ch" target="_blank"> <img style="width:70%; margin:3%;" src="../images/natel/Partners/Partenaires_Argent_TCDC.png"></img></a></td>
+                                <td style="height:12vh;" colspan="3"> <a href="https://berset-mecanique.ch" target="_blank"> <img style="width:70%; margin:3%;" src="../images/natel/Partners/Partenaires_Argent_Berset.png"></img></a></td>
+                            </tr>
+                            <tr>
+                                <td style="height:12vh;" colspan="3"> <a target="_blank"></a></td>
+                                <td style="height:12vh;" colspan="3"> <a href="https://www.sfs.ch" target="_blank"> <img style="width:55%; margin:5%;" src="../images/natel/Partners/Partenaires_Argent_SFS.png"></img></a></td>
+                            </tr>
+                            <tr>
+                                <td style="height:5vh; vertical-align: bottom; font-size: 12pt;" colspan="6">- Partenaires Bronze - </td>
+                            </tr>
+                            <tr>
+                                <td style="height:7vh;" colspan="2"> <a href="https://www.ultramotion.com/" target="_blank"> <img style="width:80%; margin:5%;" src="../images/natel/Partners/Partenaires_Bronze_UltraMotion.png"></img></a></td>
+                                <td style="height:7vh;" colspan="2"> <a href="https://clearspace.today" target="_blank"> <img style="width:79%; margin:5%;" src="../images/natel/Partners/Partenaires_Bronze_ClearSpace.png"></img></a></td>
+                                <td style="height:7vh;" colspan="2"> <a href="https://jlcpcb.com/" target="_blank"> <img style="width:90%; margin:5%;" src="../images/natel/Partners/Partenaires_Bronze_JLCPCB.png"></img></a></td>
+                            </tr>
+                            <tr>
+                                <td style="height:7vh;" colspan="2"> <a href="http://en.benewake.com" target="_blank"> <img style="width:90%; margin:5%;" src="../images/natel/Partners/Partenaires_Bronze_Benewake.png"></img></a></td>
+                                <td style="height:7vh;" colspan="2"> <a href="https://www.swaytronic.ch/" target="_blank"> <img style="width:90%; margin:5%;" src="../images/natel/Partners/Partenaires_Bronze_Swaytronic.png"></img></a></td>
+                                <td style="height:7vh;" colspan="2"> <a href="https://www.jumbo.ch/fr/" target="_blank"> <img style="width:90%; margin:5%;" src="../images/natel/Partners/Partenaires_Bronze_Jumbo.png"></img></a></td>
+                            </tr>
+                            <tr>
+                                <td style="height:7vh;" colspan="2"> <a href="http://www.bleinmeyer.ch/fr/index.html" target="_blank"> <img style="width:65%; margin:5%;" src="../images/natel/Partners/Partenaires_Bronze_BleinMeyer.png"></img></a></td>
+                                <td style="height:7vh;" colspan="2"> <a href="https://www.safeli.ch/" target="_blank"> <img style="width:90%; margin:5%;" src="../images/natel/Partners/Partenaires_Bronze_Safeli.png"></img></a></td>
+                                <td style="height:7vh;" colspan="2"> <a href="https://www.kohler.ch" target="_blank"> <img style="width:80%; margin:5%;" src="../images/natel/Partners/Partenaires_Bronze_Kohler.png"></img></a></td>
+                            </tr>
+                            <tr>
+                                <td style="height:7vh;" colspan="2"> <a href="https://www.wyssmuller-automobiles-sa.ch" target="_blank"> <img style="width:90%; margin:5%;" src="../images/natel/Partners/Partenaires_Bronze_Wyssmuller.png"></img></a></td>
+                                <td style="height:7vh;" colspan="2"> <a href="https://www.overleaf.com" target="_blank"> <img style="width:80%; margin:5%;" src="../images/natel/Partners/Partenaires_Bronze_Overleaf.png"></img></a></td>
+                                <td style="height:7vh;" colspan="2"> <a target="_blank"></a></td>
+                            </tr>
+                            <tr>
+                                <td style="height:5vh; vertical-align: bottom; font-size: 12pt;" colspan="6">- Supports - </td>
+                            </tr>
+                            <tr>
+                                <td style="height:7vh;" colspan="2"> <a target="_blank"></a></td>
+                                <td style="height:7vh;" colspan="2"> <a href="https://www.extrudr.com/en/" target="_blank"> <img style="width:80%; margin:5%;" src="../images/natel/Partners/Supporters_Extruder.png"></img></a></td>
+                                <td style="height:7vh;" colspan="2"> <a target="_blank"></a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- presse -->
+                <div class = "screen_box" style="padding-top: 5vh; padding-bottom:2vh;">
+                    <div class="screen_content" style="padding-bottom:4vh; padding-top:2vh;">
+                        <img style="object-fit:cover; width: 100vw; max-height: 50vh;" src="../images/ordi/Home/Press.jpg">
+                    </div>
+                    <div>
+                        <h1>
+                            Presse
+                        </h1>
+                        <p>
+                            Que ce soit par le biais de médias, de salons ou d’activités dans les écoles, nous prenons toujours un grand plaisir à partager notre passion.
+                        </br>
+                            Si vous êtes journaliste et curieux d’en savoir plus sur notre projet, demandez notre dossier de presse.
+                        </p>
+                    </div>
+                    <div class="screen_content" style="margin-top: 2vh;">
+                        <table style="width:85vw;"> <!--Height of the table is defined by column's heigth -> CSS:10vh/column-->
+                            <tr>
+                                <td style="height:8vh;"><a href="https://blogs.letemps.ch/pierre-brisson/2022/05/07/decoller-cest-bien-mais-atterrir-cest-mieux/" target="_blank"><img style="object-fit:contain; max-height:5vh; max-width:20vw; margin:5%;" src="../images/natel/Presse/Le_Temps.png"></img></a></td>
+                                <td style="height:8vh;"><a href="https://latele.ch/emissions/radar-fribourgeois/radar-fribourgeois-s-2022-e-46?s=4" target="_blank"><img style="object-fit:contain; max-height:5vh; max-width:20vw; margin:5%;" src="../images/natel/Presse/LaTele.png"></img></a></td>
+                                <td style="height:8vh;"><a href="../pdf/bilan.pdf" target="_blank"><img style="object-fit:contain; max-height:5vh; max-width:20vw; margin:5%;" src="../images/natel/Presse/Bilan.png"></img></a></td>
+                            </tr>
+                            <tr>
+                                <td style="height:8vh;"><a href="https://youtu.be/WTQ1Kb1Fvj8?t=870" target="_blank"><img style="object-fit:contain; max-height:5vh; max-width:20vw; margin:5%;" src="../images/natel/Presse/BPS.png"></img></a></td>
+                                <td style="height:8vh;"><a href="https://heconomist.ch/2020/03/09/le-gruyere-space-program/" target="_blank"><img style="object-fit:contain; max-height:5vh; max-width:20vw; margin:5%;" src="../images/natel/Presse/HEC.png"></img></a></td>
+                                <td style="height:8vh;"><a href="http://www.lagruyere.ch/2019/11/une-fus%C3%A9e-gru%C3%A9rienne-pr%C3%A9sent%C3%A9e-%C3%A0-la-fama.html" target="_blank"><img style="object-fit:contain; max-height:15vh; max-width:20vw; margin:5%;" src="../images/natel/Presse/lagruyere.jpg"></img></a></td>
+                            </tr>
+                            <tr>
+                                <td style="height:8vh;"><a href="http://www.laliberte.ch/news/regions/canton/etudiants-dans-l-aire-de-lancement-542677" target="_blank"><img style="object-fit:contain; max-height:5vh; max-width:20vw; margin:5%;" src="../images/natel/Presse/lalib.png"></img></a></td>
+                                <td style="height:8vh;"><a href="https://www.radiofr.ch/fribourg/info/eclairages.html" target="_blank"><img style="object-fit:contain; max-height:5vh; max-width:20vw; margin:5%;" src="../images/natel/Presse/radiofr.png"></img></a></td>
+                                <td style="height:8vh;"><a href="https://www.youtube.com/watch?v=mJgBZW1JgOU" target="_blank"><img style="object-fit:contain; max-height:5vh; max-width:20vw; margin:5%;" src="../images/natel/Presse/spaceat.png"></img></a></td>
+                            </tr>
+                            <tr>
+                                <td style="height:8vh;"><a href="https://frapp.ch/fr/articles/stories/des-grueriens-a-la-conquete-de-lespac?fbclid=IwAR2npWCEGtjUEGoyQXc4FCuOsR3oth10lFOfm9jU9aCiynp_gMVJJoxcazg" target="_blank"><img style="object-fit:contain; max-height:5vh; max-width:30vw; margin:5%;" src="../images/natel/Presse/Frapp.png"></img></a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- event -->
+                <div class = "screen_box" style="padding-top: 5vh; padding-bottom:2vh;">
+                    <div class="screen_content" style="padding-bottom:5vh;">
+                        <img style="object-fit:cover; width: 100vw; max-height: 50vh;" src="../images/natel/Home/Event.jpg">
+                    </div>
+                    <div>
+                        <h1>
+                            Evénement
+                        </h1>
+                        <p>
+                            Participer à des événements est toujours un bon moment pour l'équipe. C'est l'occasion de rencontrer des gens qui partagent notre passion du spatial ou qui sont simplement intéressés par notre travail.
+                        </p>
+                    </div>
+                    <div class="screen_content" style="margin-top: 2vh; height:100%; width:100%; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                        <table style="width:85vw;"> <!--Height of the table is defined by column's heigth -> CSS:10vh/column-->
+                            <tr>
+                                <td style="height:15vh;"><a href="https://iac2022.org/" target="_blank"><img style="object-fit:contain; max-height:20vh; max-width:35vw; margin:2%; justify-content: center;" src="../images/natel/Presse/IAC2022.png"></img></a></td>
+                            </tr>
+                        </table>
+
+                        <table style="width:85vw;"> <!--Height of the table is defined by column's heigth -> CSS:10vh/column-->
+                            <tr>
+                                <td style="height:15vh;"><a href="https://salon-stil.ch/en/" target="_blank"><img style="object-fit:contain; max-height:15vh; max-width:25vw; margin:5%;" src="../images/natel/Presse/Stil.png"></img></a></td>
+                                <td style="height:15vh;"><a href="https://www.famasuisse.ch/" target="_blank"><img style="object-fit:contain; max-height:15vh; max-width:25vw; margin:5%;" src="../images/natel/Presse/fama.svg"></img></a></td>
+                            </tr>
+                            <tr>
+                                <td style="height:15vh;"><a href="https://microclub.ch/historique/" target="_blank"><img style="object-fit:contain; max-height:15vh; max-width:25vw; margin:5%;" src="../images/natel/Presse/microclub.png"></img></a></td>
+                                <td style="height:15vh;"><a href="https://space-innovation.ch/" target="_blank"><img style="object-fit:contain; max-height:15vh; max-width:25vw; margin:5%;" src="../images/natel/Presse/space_innovation.svg"></img></a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- support -->
+                <div class = "screen_box" style="padding-top: 5vh; padding-bottom:4vh;">
+                    <div class="screen_content" style="padding-bottom:6vh;">
+                        <img style="object-fit:cover; width: 100vw; height: 50vh;" src="../images/natel/Home/Support.jpg">
+                    </div>
+                    <div>
+                        <h1>
+                            Nous soutenir
+                        </h1>
+                        <p>
+                            En tant qu'association d'étudiants, nous sommes toujours à la recherche de soutien. </br>
+                            Si vous souhaitez nous aider et permettre à ce projet de continuer par un don, n'hésitez pas à consulter notre Patreon, une plateforme de mécénat où vous pourrez accéder à du contenu exclusif sur nos avancées. Nous mettons également à disposition notre lien PayPal pour une aide plus direct. </br>
+                            Un grand merci pour votre soutien.
+                        </p>
+                    </div>
+                    <div style="display: flex; justify-content: center; margin-top: 3vh;">
+                        <a style="justify-content: center; display: flex;" href="https://www.patreon.com/GruyereSpaceProgram"><img style="width:60%;" src="../images/ordi/Home/bouton_patreon.png"></img> </a>
+                        <a style="justify-content: center; display: flex;" href="https://www.paypal.com/donate/?hosted_button_id=2SZV8H3RQBM72"><img style="width:60%;" src="../images/ordi/Home/bouton_paypal.png"></img> </a>
+                    </div>
+                </div>
+
+                <!-- contact -->
+                <div class = "screen_box" id="contact_natel" style="margin-top: 5vh; height:100vh">
+                    <div style="padding-top: 6vh; height: 89vh;">
+                        <h1>
+                            Contact
+                        </h1>
+                        <p>
+                            Si vous avez la moindre question ou proposition à nous faire, n’hésitez pas à nous contacter. Nous sommes disponibles par le mail et les réseaux sociaux de l’équipe ou par nos LinkedIn personnels donnés en page équipe. 
+                        </p>
+                        <div style="display: flex; justify-content: center; margin-top: 1vh; margin-bottom: 1vh;"> <a style="justify-content: center; display: flex;" href="mailto:gruyere.spaceprogram@gmail.com"><img style="width:30%;" src="../images/ordi/Home/bouton_email.png"></img> </a></div>
+                    </div>
+                    
+                    <div style="margin-left: 6vw; margin-right: 6vw; height: 4vh; width: 88vw;">                        
+                        <div style=" height:100%; display: flex; justify-content: space-between; align-items: stretch;">
+                            <a href="https://www.instagram.com/gruyere_space_program/?hl=fr"> Instagram </a> <!-- CHANGER LE LIEN AVEC LA LANGUE-->
+                            <a href="https://www.youtube.com/channel/UCEQWOCyWZb77dbmeHKqzEag"> Youtube </a>
+                            <a href="https://www.linkedin.com/company/gruyerespaceprogram/"> Linkedin </a>
+                            <a href="https://twitter.com/GruyereSpace"> Twitter </a>
+                            <a href="https://www.facebook.com/GruyereSpaceProgram/"> Facebook </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ordi">
+            <div class = "superbig_wrapper" id="superbig_wrapper_ordi"> 
+                <!-- home -->
+                <div class = "half_screen_box" id="home_ordi">
+                    <div class = "half_screen_smaller_box" style="height:87vh;">
+                        <div class = "half_screen_content" style="width:60vw;">
+                            <div class = "half_screen_text">
+                                <h2>
+                                    Première fusée hopper au monde construite par des étudiants
+                                </h2>
+                            </div>
+                        </div>
+                        <div class = "half_screen_content"> 
+                        </div>
+                    </div>
+                    <div style="height: 5vh; text-align: center; margin:4vh;">
+                        <a href="#objectif"><img class="height_calibration bounce" src="../images/ordi/Home/arrow.png"></a>
+                    </div>
+                </div>
+        
+        
+                <!-- objectif -->
+                <div class = "half_screen_box" id="objectif">
+                    <div class = "half_screen_smaller_box">
+                        <div class = "half_screen_content">
+                            <img style="object-fit: contain; max-width: 60vw; height: 100vh;" src="../images/ordi/Home/Objectif.png">
+                        </div>
+                        <div class = "half_screen_content">
+                            <div class = "half_screen_text">
+                                <h1>
+                                    Objectif
+                                </h1>
+                                <p>
+                                    Pour 2023, nous visons que notre fusée hopper, Colibri, exécute son premier vol VTVL (vertical takeoff vertical landing). Ce vol démontrera notre capacité à implémenter cette technologie de pointe du secteur aérospatial. .
+                                    </br>
+                                    </br>
+                                    Buzz et F-100, deux sous-projets débutés en 2020, nous ont permis de gagner en expérience dans les domaines du contrôle de vol et de la propulsion respectivement avant de développer Colibri 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- projets -->
+                <div class = "half_screen_box" id="projets">
+                    <div class = "half_screen_smaller_box">
+                        <div style="height:100%; width:60%; display: flex; justify-content: center; align-items: center;">
+                            <table style="width:50vw; margin-left:10vw; margin-top: 20vh; margin-bottom: 20vh;"> <!--Height of the table is defined by column's heigth -> CSS:10vh/column-->
+                                <tr style="height:10vh;">
+                                    <td colspan="2" style="width:50%; text-align:left; padding-left: 5%;"> </td>
+                                </tr>
+                                <tr style="height:20vh;">
+                                    <td rowspan="2" style="width:50%; height:40vh;"> <a href="./program/colibri.htm"><img style="margin:5%; width:90%; " src="../images/ordi/Home/Projet_Colibri.png"></img></a> </td>
+                                    <td style="width:50%; text-align:left; padding-left: 3%; padding-bottom: 2%; padding-right: 18%; vertical-align: bottom; font-size: larger; font-weight: lighter;">Notre fusée VTVL</td>
+                                </tr>
+                                <tr style="height:20vh;">
+                                    <td style="width:50%; text-align: left; vertical-align: top;"> <a href="./program/colibri.htm"><img style="width:50%;" src="../images/ordi/Home/bouton_voir-le-projet.png"></img></a> </td> 
+                                </tr>
+                                <tr  style="height:10vh;">
+                                </tr>
+                            </table>
+                        </div>
+                        <div style="height:100%; width:40%; display: flex; justify-content: center; align-items: center;">
+                            <table style="width:35vw; margin-right:5vw; margin-top: 20vh; margin-bottom: 10vh;"> <!--Height of the table is defined by column's heigth -> CSS:10vh/column-->
+                                <tr style="height:15vh;">
+                                    <td rowspan="2" style="width:50%; height:30vh;"> <a href="./program/buzz.htm"><img style="margin:5%; width:90%; " src="../images/ordi/Home/Projet_Buzz.png"></img></a> </td>
+                                    <td style="width:50%; text-align:left; padding-left: 2%; padding-bottom: 2%; padding-right: 10%; vertical-align: bottom; font-size: larger; font-weight: lighter;"> Notre plateforme de test pour notre système de contrôle de Colibri</td>
+                                </tr>
+                                <tr style="height:15vh">
+                                    <td style="width:50%; text-align: left; vertical-align: top;"> <a href="./program/buzz.htm"><img style="width:60%;" src="../images/ordi/Home/bouton_voir-le-projet.png"></img></a></td>
+                                </tr>
+                                <tr style="height:10vh">
+                                    <td></td>
+                                </tr>
+                                <tr style="height:15vh;">
+                                    <td rowspan="2" style="width:50%;  height:30vh;"> <a href="./program/F-100.htm"><img style="margin:5%; width:90%; " src="../images/ordi/Home/Projet_F-100.png"></img></a> </td>
+                                    <td style="width:50%; text-align:left; padding-left: 2%; padding-bottom: 2%; padding-right: 10%;  vertical-align: bottom; font-size: larger; font-weight: lighter;"> Notre premier moteur de fusée à ergols liquides </td>
+        
+                                </tr>
+                                <tr  style="height:15vh">
+                                    <td style="width:50%; text-align: left; vertical-align: top;"> <a href="./program/F-100.htm"><img style="width:60%;" src="../images/ordi/Home/bouton_voir-le-projet.png"></img></a></td> 
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- timeline -->
+                <div class = "half_screen_box" style="margin:0px;">
+                    <div style="height:100%; width:100%; display: flex; justify-content: center; align-items: center;">
+                        <table style="width:90vw; margin-right:5vw; margin-left:5vw; margin-top: 15vh; margin-bottom: 5vh; height: 80vh"> <!--Height of the table is defined by column's heigth -> CSS:10vh/column-->
+                            <tr>
+                                <td style="text-align: center; height:10vh;"> <h3 style="margin:0;">L'aventure a déjà commencée</h3> </td>
+                            </tr>
+                            <tr>
+                                <td style="height: 70vh;"> <img style="object-fit:contain; max-height: 65vh; margin-top:5vh; width:100%;" src="../images/ordi/Home/Timeline.png"> </td> 
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+        
+                <!-- equipe -->
+                <div class = "half_screen_box" id="equipe">
+                    <div class = "half_screen_smaller_box">
+                        <div class = "half_screen_content">
+                            <div class = "half_screen_text">
+                                <h1>
+                                    Equipe
+                                </h1>
+                                <p>
+                                    Tous issus du même collège et passionnés d’aérospatiale, c’est naturellement que nous avons fondé cette association. 
+                                </br>
+                                    Dotés d’une grande compatibilité et d’une excellente communication, nous avons su, année après année, s’unir pour atteindre les objectifs toujours plus élevés que nous nous fixons.
+                            </div>
+                        </div>
+                        <div class = "half_screen_content">
+                            <table style="width:90%; margin-top:10vh;"> <!--Height of the table is defined by column's heigth -> CSS:10vh/column-->
+                                <tr>
+                                    <td style="height:25vh;"> <a href="https://ch.linkedin.com/in/julie-bohning"> <img style="height:96%; margin:2%;" src="../images/ordi/Team/Equipe_Julie.png"></img> </a> </td>
+                                    <td style="height:25vh;"> <a href="https://ch.linkedin.com/in/jeremy-marciacq"> <img style="height:96%; margin:2%;" src="../images/ordi/Team/Equipe_Jeremy.png"></img> </a> </td>
+                                </tr>
+                                <tr>
+                                    <td style="height:10vh; vertical-align: top;"> Julie Böhning </br> Co-fondatrice, Présidente, </br> GNC et Marketing. </td>
+                                    <td style="height:10vh; vertical-align: top;"> Jérémy Marciacq </br> Co-fondateur, </br> Ingénieur Système et GNC. </td>
+                                </tr>
+                                <tr>
+                                    <td style="height:25vh;"><a href="https://ch.linkedin.com/in/simon-both"> <img style="height:96%; margin:2%;" src="../images/ordi/Team/Equipe_Simon.png"></img> </a></td>
+                                    <td style="height:25vh;"><a href="https://ch.linkedin.com/in/pierre-morin-725059151"> <img style="height:96%; margin:2%;" src="../images/ordi/Team/Equipe_Pierre.png"></img> </a></td>
+                                </tr>
+                                <tr>
+                                    <td style="height:10vh; vertical-align: top;"> Simon Both </br> Co-fondateur, Trésorier, </br> Propulsion et Structure. </td>
+                                    <td style="height:10vh; vertical-align: top;"> Pierre Morin </br> Membre, Secrétaire, </br> Propulsion. </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- histoire -->
+                <div class = "half_screen_box">
+                    <div class = "half_screen_box">
+                        <div class = "half_screen_smaller_box">
+                            <div class = "half_screen_content">
+                                <div class = "half_screen_text">
+                                    <h1>
+                                        Histoire
+                                    </h1>
+                                    <p>
+                                        Gruyère Space Program a été créé en novembre 2018, peu après notre entrée à l’EPFL.  
+                                        </br>
+                                        Dès le début, notre équipe a cherché à gagner de l’expérience en construisant des modèles réduits de fusées. Débutant avec de petits modèles imprimés en 3D, l’équipe s’est très vite dirigée vers des fusées TVC (Thrust vector control) afin d’ajouter la dimension du contrôle actif de la fusée.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class = "half_screen_content">
+                                <img class="width_calibration" src="../images/ordi/Home/Histoire_C2.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- vision -->
+                <div class = "half_screen_box">
+                    <div class = "half_screen_smaller_box">
+                        <div class = "half_screen_content">
+                            <img class="width_calibration" src="../images/ordi/Home/Vision.jpg">
+                        </div>
+                        <div class = "half_screen_content">
+                            <div class = "half_screen_text">
+                                <h1>
+                                    Vision
+                                </h1>
+                                <p>
+                                    Alors que le spatial prend une place de plus en plus importante, maîtriser la technologie d'atterrissage est d’une importance primordiale. Que ce soit pour réutiliser des lanceurs ou atterrir sur d’autres planètes, les vols VTVL sont très demandés et nous espérons pouvoir amener notre pierre à l’édifice. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <!-- Partenaires 1-->
+                <div class = "half_screen_box" id="partenaires">
+                    <div class = "half_screen_text" style="height:7vh; padding-top:10vh; text-align: center; margin-bottom: 5vh; margin-left:20vw; margin-right: 20vw;">
+                        <h1>Partenaires</h1>
+                    </div>
+                    <div class = "half_screen_text" style="height:5vh; text-align: center; margin-bottom: 17vh; padding-top:0px; margin-left:20vw; margin-right: 20vw;">
+                        <p style="font-size: xx-large; font-weight: 300; margin-bottom: 8pt;">PLATINE</p> 
+                        <a href="https://almatech.ch/" target="_blank"><img style="object-fit:contain; max-height:15vh; max-width:70%; margin:5%; margin-top:2%;" src="../images/ordi/Partners/Partenaire_Platine_Almatech.png"></img> </a>
+                    </div>
+
+                    
+                    <div class = "half_screen_smaller_box" style="height:5vh; padding-top: 3vh; padding-bottom: 0vh;">
+                        <p style="font-size: xx-large; font-weight: 300;">OR</p>
+                    </div>
+
+                    <div class = "half_screen_smaller_box" style="height:20vh; margin-bottom: 0vh;">
+                        <div style="height:100%; width:100%; display: flex; justify-content: center; align-items: center;">
+                            <table style="width:100%;"> <!--Height of the table is defined by column's heigth -> CSS:10vh/column-->
+                                <tr>
+                                    <td style="max-height:15%;"> <a href="https://meili-technology.com" target="_blank"> <img style="object-fit:contain; max-height:15vh; max-width:80%; margin:2.5%; padding-top: 0vh;" src="../images/ordi/Partners/Partenaires_Or_Meili.png"></img> </a></td>
+                                    <td style="max-height:15%;"> <a href="https://alpin-mecanique.ch" target="_blank"><img style="object-fit:contain; max-height:15vh; max-width:80%; margin: 2.5%;" src="../images/ordi/Partners/Partenaires_Or_Alpin.png"></img> </a></td>
+                                    <td style="max-height:15%;"> <a href="https://swissto12.com" target="_blank"><img style="object-fit:contain; max-height:15vh; max-width:80%; margin: 2.5%;" src="../images/ordi/Partners/Partenaires_Or_Swissto12.png"></img> </a></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class = "half_screen_smaller_box" style="height:25vh; margin-bottom: 0vh;">
+                        <div style="height:100%; width:100%; display: flex; justify-content: center; align-items: center;">
+                            <table style="width:80%;"> <!--Height of the table is defined by column's heigth -> CSS:10vh/column-->
+                                <tr>                                    
+                                    <td style="max-height:15%;"> <a href="https://www.javadgnss.com" target="_blank"><img style="object-fit:contain; max-height:15vh; max-width:80%; margin: 2.5%;" src="../images/ordi/Partners/Partenaires_Or_JAVAD.png"></img> </a></td>
+                                    <td style="max-height:15%;"> <a href="https://www.cransmontana.ch/fr/services-accm/economie/startup-friendly/" target="_blank"> <img style="object-fit:contain; max-height:20vh; max-width:90%; margin:2.5%; padding-top: 0vh;" src="../images/ordi/Partners/Partenaires_Or_ACCM.png"></img> </a></td>
+                                    <td style="max-height:15%;"> <a href="https://www.vectornav.com" target="_blank"><img style="object-fit:contain; max-height:18vh; max-width:90%; margin:2.5%;" src="../images/ordi/Partners/Partenaires_Or_VectorNav.png"></img> </a></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Partenaires 2-->
+                <div class = "half_screen_box" id="partenaires">
+                    <div class = "half_screen_text" style="height:7vh; padding-top:10vh; text-align: center; margin-bottom: 1vh; margin-left:20vw; margin-right: 20vw;">
+                        <p style="font-size: xx-large; font-weight: 300; margin-bottom: 5pt;">ARGENT</p> 
+                    </div>
+                    <div class = "half_screen_smaller_box" style="height:13vh; margin-bottom: 2vh;">
+                        <div style="height:100%; width:100%; display: flex; justify-content: center; align-items: center;">
+                            <a style = "width:20%;" href="https://planete-mars-suisse.space/en/" target="_blank"><img style="object-fit:contain; max-height:13vh; width:100%;" src="../images/ordi/Partners/Partenaires_Argent_MS.png"></img> </a>
+                            <a style = "width:20%;" href="https://www.conrad.ch" target="_blank"><img style="object-fit:contain; max-height:13vh; width:100%;" src="../images/ordi/Partners/Partenaires_Argent_Conrad.png"></img> </a>
+                            <a style = "width:20%;" href="https://www.pangas.ch/fr/index.html" target="_blank"><img style="object-fit:contain; max-height:13vh; width:100%;" src="../images/ordi/Partners/Partenaires_Argent_Pangas.png"></img> </a>
+                            <a style = "width:20%;" href="https://www.gruyere-energie.ch/" target="_blank"><img style="object-fit:contain; max-height:12vh; width:100%;" src="../images/ordi/Partners/Partenaires_Argent_GESA.png"></img> </a>
+                        </div>
+                    </div>
+                    <div class = "half_screen_smaller_box" style="height:13vh; margin-bottom: 3vh;">
+                        <div style="height:100%; width:100%; display: flex; justify-content: center; align-items: center;">
+                            <a style = "width:20%;" href="https://thecountdowncompany.ch" target="_blank"><img style="object-fit:contain; max-height:13vh; width:100%;" src="../images/natel/Partners/Partenaires_Argent_TCDC.png"></img> </a>
+                            <a style = "width:20%;" href="https://www.sfs.ch" target="_blank"><img style="object-fit:contain; max-height:11vh; width:100%;" src="../images/natel/Partners/Partenaires_Argent_SFS.png"></img> </a>
+                            <a style = "width:20%;" href="https://berset-mecanique.ch" target="_blank"><img style="object-fit:contain; max-height:13vh; width:100%;" src="../images/natel/Partners/Partenaires_Argent_Berset.png"></img> </a>
+                        </div>
+                    </div>
+
+                    <div class = "half_screen_text" style="padding-top: 0px; height:5vh; text-align: center; margin-bottom: 0.5vh; margin-left:20vw; margin-right: 20vw;">
+                        <p style="font-size: xx-large; font-weight: 300; margin-bottom: 0pt;">BRONZE</p> 
+                    </div>
+
+                    <div class = "half_screen_smaller_box" style="height:10vh; margin-bottom: 2vh;">
+                        <div style="height:100%; width:100%; display: flex; justify-content: center; align-items: center;">
+                            <a style = "width:17%;" href="https://www.ultramotion.com/" target="_blank"><img style="object-fit:contain; max-height:9vh; width:100%;" src="../images/ordi/Partners/Partenaires_Bronze_UltraMotion.png"></img></a>
+                            <a style = "width:17%;" href="https://www.overleaf.com/" target="_blank"><img style="object-fit:contain; max-height:9vh; width:100%;" src="../images/ordi/Partners/Partenaires_Bronze_Overleaf.png"></img></a>
+                            <a style = "width:17%;" href="https://clearspace.today" target="_blank"><img style="object-fit:contain; max-height:7vh; width:100%;" src="../images/ordi/Partners/Partenaires_Bronze_ClearSpace.png"></img></a>
+                            <a style = "width:17%;" href="https://jlcpcb.com/" target="_blank"><img style="object-fit:contain; max-height:8vh; width:100%;" src="../images/ordi/Partners/Partenaires_Bronze_JLCPCB.png"></img> </a>
+                            <a style = "width:17%;" href="https://www.kohler.ch" target="_blank"><img style="object-fit:contain; max-height:6.5vh; width:100%;" src="../images/ordi/Partners/Partenaires_Bronze_Kohler.png"></img></a>
+                        </div>
+                    </div>
+                    <div class = "half_screen_smaller_box" style="height:11vh; margin-bottom: 5vh;">
+                        <div style="height:100%; width:100%; display: flex; justify-content: center; align-items: center;">
+                            <a style = "width:17%;" href="https://www.swaytronic.ch/" target="_blank"><img style="object-fit:contain; max-height:8vh; width:100%;" src="../images/ordi/Partners/Partenaires_Bronze_Swaytronic.png"></img> </a>
+                            <a style = "width:17%;" href="http://www.bleinmeyer.ch/fr/index.html" target="_blank"><img style="object-fit:contain; max-height:10vh; width:100%;" src="../images/ordi/Partners/Partenaires_Bronze_BleinMeyer.png"></img></a>
+                            <a style = "width:17%;" href="https://www.safeli.ch/" target="_blank"><img style="object-fit:contain; max-height:9vh; width:100%;" src="../images/ordi/Partners/Partenaires_Bronze_Safeli.png"></img> </a>
+                            <a style = "width:17%;" href="https://www.wyssmuller-automobiles-sa.ch" target="_blank"><img style="object-fit:contain; max-height:8vh; width:100%;" src="../images/ordi/Partners/Partenaires_Bronze_Wyssmuller.png"></img> </a>
+                            <a style = "width:17%;" href="http://en.benewake.com" target="_blank"><img style="object-fit:contain; max-height:9vh; width:100%;" src="../images/ordi/Partners/Partenaires_Bronze_Benewake.png"></img> </a>
+                        </div>
+                    </div>
+
+                    <div class = "half_screen_text" style="padding-top: 0px; height:5vh; text-align: center; margin-bottom: 0vh; margin-left:20vw; margin-right: 20vw;">
+                        <p style="font-size: xx-large; font-weight: 300; margin-bottom: 0pt;">SUPPORTS</p> 
+                    </div>
+
+                    <div class = "half_screen_smaller_box" style="height:10vh; margin-bottom: 3vh;">
+                        <div style="height:100%; width:100%; display: flex; justify-content: center; align-items: center;">
+                            <a style = "width:12%;" href="https://www.extrudr.com/en/" target="_blank"><img style="object-fit:contain; max-height:9vh; width:100%;" src="../images/ordi/Partners/Supporters_Extruder.png"></img> </a>
+                        </div>
+                    </div>
+                </div>
+
+        
+                <!-- Presse -->
+                <div class = "half_screen_box" id="press">
+                    <div class = "half_screen_smaller_box">
+                        <div class = "half_screen_content">
+                            <div style="margin-left: 7vw; margin-right: 7vw; margin-top: 10vh; margin-bottom: 20vh; height: 60vh;">
+                                <h1>
+                                    Presse
+                                </h1>
+                                <p>
+                                    Que ce soit par le biais de médias, de salons ou d’activités dans les écoles, nous prenons toujours un grand plaisir à partager notre passion.
+                                </br>
+                                    Si vous êtes journaliste et curieux d’en savoir plus sur notre projet, demandez notre dossier de presse.
+                                </p>
+                                <table style="width:90%; margin-top:7vh; margin-bottom: 7vh;">
+                                    <tr>
+                                        <td style="max-height:5vh;"><a href="https://blogs.letemps.ch/pierre-brisson/2022/05/07/decoller-cest-bien-mais-atterrir-cest-mieux/" target="_blank"><img style="object-fit:contain; max-height:5vh; max-width:10vw; margin:5%;" src="../images/ordi/Presse/Le_Temps.png"></img></a></td>
+                                        <td style="max-height:5vh;"><a href="https://latele.ch/emissions/radar-fribourgeois/radar-fribourgeois-s-2022-e-46?s=4" target="_blank"><img style="object-fit:contain; max-height:5vh; max-width:10vw; margin:5%;" src="../images/ordi/Presse/LaTele.png"></img></a></td>
+                                        <td style="max-height:5vh;"><a href="./pdf/bilan.pdf" target="_blank"><img style="object-fit:contain; max-height:5vh; max-width:10vw; margin:5%;" src="../images/ordi/Presse/Bilan.png"></img></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="max-height:5vh;"><a href="https://youtu.be/WTQ1Kb1Fvj8?t=870" target="_blank"><img style="object-fit:contain; max-height:5vh; max-width:10vw; margin-top:20%;" src="../images/ordi/Presse/BPS.png"></img></a></td>
+                                        <td style="max-height:5vh;"><a href="https://heconomist.ch/2020/03/09/le-gruyere-space-program/" target="_blank"><img style="object-fit:contain; max-height:5vh; max-width:10vw; margin-top:20%;" src="../images/ordi/Presse/HEC.png"></img></a></td>
+                                        <td style="max-height:5vh;"><a href="http://www.lagruyere.ch/2019/11/une-fus%C3%A9e-gru%C3%A9rienne-pr%C3%A9sent%C3%A9e-%C3%A0-la-fama.html" target="_blank"><img style="object-fit:contain; max-height:5vh; max-width:10vw; margin-top:20%;" src="../images/ordi/Presse/lagruyere.jpg"></img></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="max-height:5vh;"><a href="http://www.laliberte.ch/news/regions/canton/etudiants-dans-l-aire-de-lancement-542677" target="_blank"><img style="object-fit:contain; max-height:5vh; max-width:10vw; margin:5%;" src="../images/ordi/Presse/lalib.png"></img></a></td>
+                                        <td style="max-height:5vh;"><a href="https://www.radiofr.ch/fribourg/info/eclairages.html" target="_blank"><img style="object-fit:contain; max-height:5vh; max-width:10vw; margin:5%;" src="../images/ordi/Presse/radiofr.png"></img></a></td>
+                                        <td style="max-height:5vh;"><a href="https://www.youtube.com/watch?v=mJgBZW1JgOU" target="_blank"><img style="object-fit:contain; max-height:15vh; max-width:10vw; margin:5%;" src="../images/ordi/Presse/spaceat.png"></img></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="max-height:5vh;"><a href="https://frapp.ch/fr/articles/stories/des-grueriens-a-la-conquete-de-lespac?fbclid=IwAR2npWCEGtjUEGoyQXc4FCuOsR3oth10lFOfm9jU9aCiynp_gMVJJoxcazg" target="_blank"><img style="object-fit:contain; max-height:5vh; max-width:10vw; margin:5%;" src="../images/ordi/Presse/Frapp.png"></img></a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class = "half_screen_content">
+                            <img class="width_calibration" src="../images/ordi/Home/Press.jpg">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Events -->
+                <div class = "half_screen_box" id="event">
+                    <div class = "half_screen_smaller_box">
+                        <div class = "half_screen_content">
+                            <img class="width_calibration" src="../images/ordi/Home/Event.jpg">
+                        </div>
+                        <div class = "half_screen_content">
+                            <div style="margin-left: 7vw; margin-right: 7vw; margin-top: 10vh; margin-bottom: 15vh; height: 60vh;">
+                                <h1>
+                                    Evénements
+                                </h1>
+                                <p>
+                                    Participer à des événements est toujours un bon moment pour l'équipe. C'est l'occasion de rencontrer des gens qui partagent notre passion du spatial ou qui sont simplement intéressés par notre travail.
+                                </p>
+                                <table style="width:90%; margin-top:7vh; margin-bottom: 0vh;"> <!--Height of the table is defined by column's heigth -> CSS:10vh/column-->
+                                    <tr>
+                                        <td style="height:5vh;"><a href="https://iac2022.org/" target="_blank"><img style="object-fit:contain; max-height:12vh; max-width:20vw; margin:0%; justify-content: center;" src="../images/natel/Presse/IAC2022.png"></img></a></td>
+                                    </tr>
+                                </table>
+                                <table style="width:90%; margin-top:2.5vh; margin-bottom: 7vh;">
+                                    <tr>                                        
+                                        <td style="max-height:5vh;"><a href="https://salon-stil.ch/en/" target="_blank"><img style="object-fit:contain; max-height:10vh; max-width:10vw; margin:5%;" src="../images/ordi/Presse/Stil.png"></img></a></td>
+                                        <td style="max-height:5vh;"><a href="https://www.famasuisse.ch/fr/#:~:text=Bulle%2C%20le%2021%20juin%202021,Espace%20Gruy%C3%A8re%2C%20Bulle%2FFR" target="_blank"><img style="object-fit:contain; max-height:10vh; max-width:10vw; margin:5%;" src="../images/ordi/Presse/fama.svg"></img></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="max-height:5vh;"><a href="https://microclub.ch/historique/" target="_blank"><img style="object-fit:contain; max-height:10vh; max-width:10vw; margin:5%;" src="../images/ordi/Presse/microclub.png"></img></a></td>
+                                        <td style="max-height:5vh;"><a href="https://space-innovation.ch/" target="_blank"><img style="object-fit:contain; max-height:10vh; max-width:10vw; margin:5%;" src="../images/ordi/Presse/space_innovation.svg"></img></a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- support -->
+                <div class = "half_screen_box" id="support">
+                    <div class = "half_screen_smaller_box">
+                        
+                        <div class = "half_screen_content">
+                            <div style="margin-left: 7vw; margin-right: 7vw;">
+                                <h1>
+                                    Nous soutenir
+                                </h1>
+                                <p>
+                                    En tant qu'association d'étudiants, nous sommes toujours à la recherche de soutien. </br>
+                                    Si vous souhaitez nous aider et permettre à ce projet de continuer par un don, n'hésitez pas à consulter notre Patreon, une plateforme de mécénat où vous pourrez accéder à du contenu exclusif sur nos avancées. Nous mettons également à disposition notre lien PayPal pour une aide plus direct. </br>
+                                    Un grand merci pour votre soutien.
+                                </p>
+                                <div style="display: flex; justify-content: center; margin-top: 3vh;">
+                                    <a style="justify-content: center; display: flex;" href="https://www.patreon.com/GruyereSpaceProgram"><img style="width:61%; margin-right: 19.5%; margin-right: 19.5%;" src="../images/ordi/Home/bouton_patreon.png"></img> </a>
+                                    <a style="justify-content: center; display: flex;" href="https://www.paypal.com/donate/?hosted_button_id=2SZV8H3RQBM72"><img style="width:61%; margin-right: 19.5%; margin-right: 19.5%;" src="../images/ordi/Home/bouton_paypal.png"></img> </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "half_screen_content">
+                            <img class="width_calibration" src="../images/ordi/Home/Support.jpg">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- contact -->
+                <div class = "half_screen_box" id="contact_ordi" style="height:100vh;">
+                    <div class = "half_screen_smaller_box"  style="height:93vh;">
+                        <div class = "half_screen_content">
+                            
+                        </div>
+                        <div class = "half_screen_content">
+                            <div class = "half_screen_text">
+                                <h1>
+                                    Contact
+                                </h1>
+                                <p>
+                                    Si vous avez la moindre question ou proposition à nous faire, n’hésitez pas à nous contacter. Nous sommes disponibles par le mail et les réseaux sociaux de l’équipe ou par nos LinkedIn personnels donnés en page équipe. 
+                                </p>
+                            <div style="display: flex; justify-content: center; margin-top: 1vh; margin-bottom: 1vh;"> <a style="justify-content: center; display: flex;" href="mailto:gruyere.spaceprogram@gmail.com"><img style="width:42%;" src="../images/ordi/Home/bouton_email.png"></img> </a></div>
+                            </div>
+                        </div>   
+                    </div>
+                
+                    <div style="bottom: 4vh; margin-left: 10vw; margin-right: 10vw; height: 7vh; width: 76vw;">
+                        <div style=" height:100%; display: flex; justify-content: space-between; align-items: stretch;">
+                            <a href="https://www.instagram.com/gruyere_space_program/?hl=fr"> Instagram </a> <!-- CHANGER LE LIEN AVEC LA LANGUE-->
+                            <a href="https://www.youtube.com/channel/UCEQWOCyWZb77dbmeHKqzEag"> Youtube </a>
+                            <a href="https://www.linkedin.com/company/gruyerespaceprogram/"> Linkedin </a>
+                            <a href="https://twitter.com/GruyereSpace"> Twitter </a>
+                            <a href="https://www.facebook.com/GruyereSpaceProgram/"> Facebook </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
